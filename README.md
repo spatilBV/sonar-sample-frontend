@@ -4,6 +4,9 @@ A minimal **Next.js (App Router, TypeScript)** app used to validate the
 **SonarQube Cloud** end-to-end integration on a small repo — small enough to
 stay well under the free-trial 50K line-of-code limit.
 
+> Status: SonarQube Cloud E2E integration verified — analysis runs on the
+> `master` branch on each push and results appear on the dashboard.
+
 It contains a little real logic and **one intentional code smell**
 (`lib/utils.ts` uses `==` instead of `===`) so that a successful analysis
 produces at least one visible issue on the SonarQube dashboard — proving the
